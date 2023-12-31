@@ -1,0 +1,81 @@
+.vr {
+	border: 1px solid lightgray;
+}
+
+.blinklogo {
+	border-right:1px solid lightgray;
+	border-height:100px;
+}
+
+.top {
+	border-bottom:1px solid lightgray;
+}
+.search {
+	width:500px;
+	border:1px solid lightgray;
+	border-radius:5px;
+	background-color:rgb(248,248,248);
+	padding-inline:10px ;
+	
+	left: -20px;
+}
+
+
+.My-cart {
+
+}
+.ad {
+	margin: auto;
+	width: 80vw;
+}
+.slider {
+	gap: 60 px;
+	overflow: auto;
+	margin: auto;
+	width: 85vw;
+}
+
+.slider-1 {
+	   
+	padding-inline: 6px;
+	width: 80vw ;
+}
+
+.Dairy-content {
+	margin-inline:10px ;
+	padding:20px ;
+	font-weight:500;
+	background-color:rgb(254,255,254);
+	border:1px solid lightgray ;
+	border-radius:15px;
+	flex-wrap: no-wrap ;
+	position: block;
+	white-space: wrap;
+	display:relative;
+	line-height:30px;
+	margin-bottom: 30px;
+	width: 80vw ;
+}
+.price {
+	line-height:50px;
+	font-weight:700;
+}
+.price-slider{
+	overflow:auto;
+	gap:10px;
+	margin-inline:80px;
+	background-color: ;
+	width: 80vw ;
+	
+}
+
+@media screen and (max-width:768px) {
+	nav {
+  flex-direction: column;
+  }
+  
+  .ad {
+  diplay: none ;	  
+  }
+}
+/* Your CSS Code here. */
